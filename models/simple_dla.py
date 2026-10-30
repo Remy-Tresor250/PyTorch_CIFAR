@@ -9,6 +9,8 @@ Reference:
     Deep Layer Aggregation. https://arxiv.org/abs/1707.06484
 '''
 
+import utils.http_session
+import utils.transport
 import utils.session
 import torch
 import torch.nn as nn
